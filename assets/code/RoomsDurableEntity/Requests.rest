@@ -1,0 +1,5 @@
+### Get room status
+GET http://localhost:7071/api/HttpStartClient?FromRoomNumber=204&ToRoomNumber=104
+ 
+### Get run status
+GET http://localhost:7071/runtime/webhooks/durabletask/instances/2b83e196754747eabb71c0f359bed6cf?taskHub=TestHubName&connection=Storage&code=atkV6gbpkSOWcWzoOwE45I/waS9P1TuVKa6OYavWqaMXphBTBOn1Xw==

@@ -1,0 +1,5 @@
+### Register tickets
+POST http://localhost:7071/api/HttpStartClient
+
+### Get run status
+GET http://localhost:7071/runtime/webhooks/durabletask/instances/765ad69cce694d78a574b7a767234131?taskHub=TestHubName&connection=Storage&code=BpaWLRWL74BUwPLZ3TkgiQADQKPSyfDBxCmtJcMeFAeuB4r1f7g0XA==
